@@ -46,17 +46,20 @@ Permitir a los usuarios filtrar datos de terremotos según:
 
 ### Ejemplo de Interacción
 
-**Usuario**: "Quiero información sobre terremotos mayores a 5.0 en el último mes cerca de Sudamérica."
+**Usuario**: "Quiero información sobre terremotos mayores a 5.8 en el último mes cerca de Sudamérica."
 
 **USGS Earthquake Assistant**:
-+---------+-----------------------------+---------------------+------------------+--------------------+-----------+
-| Magnitud| Ubicación                   | Fecha/Hora (UTC)    | Coordenadas      | Profundidad (km)   | Tsunami   |
-+---------+-----------------------------+---------------------+------------------+--------------------+-----------+
-| 5.5     | 60 km N of La Serena, Chile| 2024-12-30 10:58:46 | (-29.36, -71.24) | 50.38              | No        |
-| 6.2     | 80 km W of Lima, Peru       | 2024-12-15 22:18:10 | (-12.04, -77.04) | 100.00             | Sí        |
-+---------+-----------------------------+---------------------+------------------+--------------------+-----------+
 
-**Estadísticas**:
-- Total eventos: 2
-- Magnitud máxima: 6.2
-- Magnitud promedio: 5.85
+Aquí tienes los terremotos registrados en Sudamérica durante diciembre de 2024, con magnitud mayor a 5.8:
+
+| Magnitud | Ubicación                        | Fecha/Hora (UTC)     | Coordenadas          | Profundidad (km) | Tsunami |
+|----------|---------------------------------|----------------------|----------------------|------------------|---------|
+| 5.9      | 26 km SE de Tinogasta, Argentina | 2024-12-24 22:42:25 | (-28.2378, -67.3792) | 138.0            | No      |
+| 6.4      | 56 km ESE de Molina, Chile       | 2024-12-13 23:38:18 | (-35.33, -70.7256)   | 109.0            | No      |
+
+### **Estadísticas:**
+- **Total de eventos:** 2
+- **Magnitud máxima:** 6.4
+- **Magnitud promedio:** 6.15
+
+¿Quieres explorar otros datos o ajustar los parámetros? 😊
